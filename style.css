@@ -49,6 +49,7 @@ header > h1 {
     font-family: var(--font1);
     font-size: 3em;
     padding-top: 40px;
+    text-shadow: 3px 3px 5px black;
 }
 
 header > p {
@@ -58,6 +59,7 @@ header > p {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 30px;
+    text-shadow: 3px 3px 5px black;
 }
 
 a {
@@ -97,6 +99,7 @@ main > section > h2, h3, h4 {
     font-family: var(--font2);
     line-height: 2em;
     padding-left: 10px;
+    text-shadow: 3px 3px 5px black;
 }
 
 main > section > h2 {
@@ -104,11 +107,8 @@ main > section > h2 {
     margin-bottom: 10px;
 }
 
-main > section > div > h2 {
-    font-family: var(--font2);
-    color: var(--cor3);
-    font-size: 1.5em;
-    line-height: 2em;
+main > section > div > p {
+    background-color: #230c14c2;
 }
 
 main > section > h3 {
@@ -122,15 +122,31 @@ main > section > h3 {
     text-align: center;
 }
 
-.section-image > h2 {
+#stolen {
     background-color: #230c1498;
     color: var(--cor6);
     text-shadow: 3px 3px 5px black;
     font-size: 2em;
 }
 
+#partnership {
+    background-color: #230c1498;
+    color: var(--cor6);
+    text-shadow: 3px 3px 5px black;
+    font-size: 2em;
+}
+
+#glory1 {
+    background-image: linear-gradient(to left, transparent, #d9111181);
+}
+
 #glory {
-    color: var(--cor3);
+    font-family: var(--font2);
+    color: var(--cor6);
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 2em;
+    text-shadow: 3px 3px 5px black;
 }
 
 #blitzcrank {
@@ -197,6 +213,7 @@ aside {
     box-sizing: border-box;
     background-color: var(--cor2);
     margin: 22px auto;
+    margin-bottom: -1px;
     padding: 20px;
     padding-bottom: 55%;
     position: relative;
